@@ -1,0 +1,111 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+.headerImg{
+    background-image: url('../img/pexels-otto-rascon-9482200.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20vh;
+}
+
+.profileImg{
+    background-image: url('../img/profile768x512.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.cardBanner{
+    height: 3vh;
+}
+
+.inAction01{
+    background-image: url('../img/marching768x432.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.inAction02{
+    background-image: url('../img/duo768x512.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.inAction03{
+    background-image: url('../img/office768x768.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.inAction04{
+    background-image: url('../img/standing768x512.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+@media screen and (max-width: 768px){
+    .profileImg{
+        background-image: url('../img/profile576x384.jpg');
+        height: 50vh;
+    }
+
+    .inAction01{
+        background-image: url('../img/marching576x324.jpg');
+        height: 50vh;
+    }
+
+    .inAction02{
+        background-image: url('../img/duo576x384.jpg');
+        height: 50vh;
+    }
+
+    .inAction03{
+        background-image: url('../img/office576x576.jpg');
+        height: 50vh;
+    }
+
+    .inAction04{
+        background-image: url('../img/standing576x384.jpg');
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .profileImg{
+        background-image: url('../img/profile300x200.jpg');
+        height: 30vh;
+    }
+
+    .inAction01{
+        background-image: url('../img/marching300x169.jpg');
+        height: 30vh;
+    }
+
+    .inAction02{
+        background-image: url('../img/duo300x200.jpg');
+        height: 30vh;
+    }
+
+    .inAction03{
+        background-image: url('../img/office300x300.jpg');
+        height: 30vh;
+    }
+
+    .inAction04{
+        background-image: url('../img/standing300x200.jpg');
+        height: 30vh;
+    }
+}
